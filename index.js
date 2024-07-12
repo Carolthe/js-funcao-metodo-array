@@ -1,32 +1,32 @@
 //Funções
 
-//Sem Parametro
-// function soma1 ( ){
+// Sem Parametro
+function soma1 ( ){
 
 //  console.log(1+2)   
 
-// }
+}
 // soma1()
 
 
 
 //Com Parametro
 //parametros são os dados recebidos pela função
-// function soma4 (num, num2, operacao ){
-//     if(operacao == "soma" ){
-//         console.log(num + num2)
-//     }
-//     else if(operacao == "divisão"){
-//         console.log(num / num2)
-//     }
-//     else if(operacao == "multiplicação"){
-//         console.log(num * num2)
-//     }
-//     else if(operacao == "subtração"){
-//         console.log(num - num2)
-//     }
+function soma4 (num, num2, operacao ){
+    if(operacao == "soma" ){
+        // console.log(num + num2)
+    }
+    else if(operacao == "divisão"){
+        // console.log(num / num2)
+    }
+    else if(operacao == "multiplicação"){
+        // console.log(num * num2)
+    }
+    else if(operacao == "subtração"){
+        // console.log(num - num2)
+    }
    
-//    }
+   }
 //    soma4(1, 10, "divisão")
 //    soma4(1, 5, "subtração")
 //    soma4(1, 30, "multiplicação")
@@ -35,11 +35,11 @@
 
    //Sem retorno
    //As funções sem retorno não tem Return
-//    function soma3 ( ){
+   function soma3 ( ){
    
 //     console.log( 2 + 3)
    
-//        }
+}
 //     //    soma3()
 
 //    //Com retorno
